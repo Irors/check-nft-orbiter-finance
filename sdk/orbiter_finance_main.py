@@ -38,7 +38,7 @@ async def get_eligible(wallets: list):
             'method': 'orbiter_getTransactionByAddress',
             'params': [
                 address,
-                10,
+                1000,
                 1,
             ],
         }
